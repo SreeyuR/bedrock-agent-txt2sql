@@ -21,7 +21,7 @@ import sys
 agentId = "<YOUR AGENT ID>" #INPUT YOUR AGENT ID HERE
 agentAliasId = "<YOUR ALIAS ID>" # Hits draft alias, set to a specific alias id for a deployed version
 
-theRegion = "us-west-2"
+theRegion = "us-east-1"
 os.environ["AWS_REGION"] = theRegion
 region = os.environ.get("AWS_REGION")
 llm_response = ""
